@@ -1,51 +1,60 @@
-.column1{
-	transition: 1s linear;
+#content{
+	background: #DCDCDC;
+	float: right;
+	font-size: 20px;
 }
 
-td:hover{
-	background: green;
+#footer{
+	left: 0; bottom: 0;
+	padding: 10px;
+	background: #FAEBD7;
+	color: black;
+	width: 100%;
+	height: 100%;
 }
 
-td:active{
-	background: red;
+.cap{
+	 text-align: center;
+	 color: black;
 }
 
+#navigationMenu{
+	color: black;
+}
+
+div{
+	width: 100%;
+	padding: 5px;
+	float: left;
+	position: relative;
+	outline: 1px solid #000;
+}
+
+body{
+	background: #F0F8FF;
+}
 
 h1{
-	color: brown;
+	color: #006400;
 }
 
-h3{
-	color: darkolivegreen;
-	font: 25pt serif;
+h2{
+	color: #BDB76B
+}
+
+p{
+	font-weight: 900;
 }
 
 li{
-	font: 15pt sans-serif;
+	font-stretch: condensed;
 }
 
-.test{
-	border: 1px solid black; 
-    padding: 5px;
-    margin-bottom: 5px;
+a{
+	text-decoration: none;
+	color: #006400;
 }
 
-#right { text-align: right; }
-
-#left { text-align: left; }
-
-.rezyme{
-	font: impact;
-	font-weight: 600;
-}
-
-.form{
-	margin: 1px;
-}
-
-
-.body{
-    background: linear-gradient(to bottom, #fefcea, #f1da36);
-    padding: 10px;
-    border: 1px solid #333;
+button{
+	text-decoration-color: black;
 }
