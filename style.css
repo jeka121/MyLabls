@@ -4,6 +4,13 @@
 	font-size: 20px;
 }
 
+#content2{
+	width: 100%;
+	background: #DCDCDC;
+	float: right;
+	font-size: 20px;
+}
+
 #footer{
 	left: 0; bottom: 0;
 	padding: 10px;
@@ -21,6 +28,98 @@
 #navigationMenu{
 	color: black;
 }
+
+@media (max-width: 720px){ 
+	#content{
+		width: 100%;
+	}
+	img{
+		display: block;
+		margin: 0 auto;
+	}
+
+	button{
+		height: 35px;
+	}
+}
+
+@media(max-width: 540px){
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	button{
+		height: 30px;
+	}
+}
+
+@media(min-width: 721px){
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	button{
+		height: 45px;
+	}
+}
+
+@media(min-width: 1200px){
+	img{
+		width: 300px;
+		height: 300px;
+	}
+	#content{
+		width: 300px;
+		height: 320px;
+		font-size: 15px;
+	}
+	h1{
+		font-size: 40px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 15px;
+	}
+	#footer{
+		font-size: 15px;
+	}
+	button{
+		height: 55px;
+		font-size: 15px;
+	}
+
+}
+
+@media(min-width: 1900px){
+	img{
+		width: 400px;
+		height: 400px;
+	}
+	#content{
+		width: 400px;
+		height: 400px;
+		font-size: 20px;
+	}
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 30px;
+	}
+	p{
+		font-size: 20px;
+	}
+	#footer{
+		font-size: 20px;
+	}
+	button{
+		height: 55px;
+		font-size: 20px;
+	}
+}
+
 
 div{
 	width: 100%;
@@ -56,5 +155,6 @@ a{
 }
 
 button{
+	width: 100%;
 	text-decoration-color: black;
 }
